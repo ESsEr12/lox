@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lox</title>
+</head>
+<style>
+    .gameWindow {
+        position: fixed;
+        top: 20%;
+        left: 30%;
+        bottom: 20%;
+        right: 30%;
+        border: 1px solid red;
+        border-radius: 24px;
+        background-color: rosybrown;
+    }
+
+    .h1 {
+        width: 100%;
+        position: absolute;
+        top: 10%;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 36px;
+    }
+
+    .button {
+        position: absolute;
+        width: 150px;
+        height: 60px;
+        font-size: 36px;
+    }
+
+    .yes {
+        left: 60px;
+        bottom: 20%;
+
+    }
+
+    .no {
+        right: 60px;
+        bottom: 20%;
+    }
+</style>
+
+<body>
+    <main class="gameWindow">
+        <h1 id="heading" class="h1">ты лох ?</h1>
+        <button id="yes" class="button yes">да</button>
+        <button id="no" class="button no">нет</button>
+
+    </main>
+</body>
+<script>
+    let count = 0
+    yes.onclick = () => {
+        heading.innerHTML = 'ха я так и знал'
+        yes.hidden = true
+        no.hidden = true
+    }
+    no.onclick = () => {
+        count++
+        if (count === 1) {
+            no.style.bottom = '200px'
+            no.style.left = '200px'
+            no.style.top = 'unset'
+            no.style.right = 'unset'
+        }
+        if ( count === 2){
+            no.style.bottom = '100px'
+            no.style.left = '60px'
+            no.style.top = 'unset'
+            no.style.right = 'unset'
+        }
+        if ( count === 3){
+            no.style.bottom = '200px'
+            no.style.left = 'unset'
+            no.style.top = '500px'
+            no.style.right = 'unset'
+        }
+        if ( count === 4){
+            no.style.bottom = '100px'
+            no.style.left = 'unset'
+            no.style.top = 'unset'
+            no.style.right = '30px'
+        }
+        if ( count === 5){
+            no.style.bottom = '20px'
+            no.style.left = '50px'
+            no.style.top = 'unset'
+            no.style.right = 'unset'
+        }
+        if ( count === 6){
+            no.style.bottom = 'unset'
+            no.style.left = '100px'
+            no.style.top = '20px'
+            no.style.right = 'unset'
+        }
+        if ( count === 7){
+            no.style.bottom = 'unset'
+            no.style.left = 'unset'
+            no.style.top = '40px'
+            no.style.right = '10px'
+        }
+        if ( count === 8){
+            no.style.bottom = 'unset'
+            no.style.left = '50px'
+            no.style.top = 'unset'
+            no.style.right = '90px'
+        }
+        if ( count === 9){
+            no.style.bottom = '70px'
+            no.style.left = 'unset'
+            no.style.top = '50px'
+            no.style.right = 'unset'
+        }
+        if ( count === 10){
+            no.style.bottom = 'unset'
+            no.style.left = 'unset'
+            no.style.top = '40px'
+            no.style.right = '90px'
+        }
+        if ( count === 11){
+            no.style.bottom = '20%'
+            no.style.left = '60px'
+            no.style.top = 'unset'
+            no.style.right = 'unset'
+            no.style.zIndex = '-10'
+        }
+        
+
+    }
+</script>
+
+</html>
