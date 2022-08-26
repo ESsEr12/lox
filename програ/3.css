@@ -1,0 +1,13 @@
+body{background-color: #DB7093}
+.b {
+	position: absolute;
+
+	left: 500px;
+	top: 100px;
+	padding: 20[x];
+	font-style: 30px;
+	background-color:#8B0000 ;
+	border:3px solid black;
+	border-radius: 10px;
+	font-family : Couriet New ;
+}

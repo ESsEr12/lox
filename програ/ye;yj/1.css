@@ -1,0 +1,14 @@
+.a{
+	width:300px;height:300px; border-left:3px solid blue;border-top:3px solid MediumVioletRed ;border-bottom: 
+	3px solid red;border-right:3px solid Khaki 
+}
+
+.b{
+	width:300px;height:300px; border-left:3px solid blue;border-top:2px solid Indigo ;border-bottom: 
+	2px solid red;border-right:3px dotted Khaki ;border-radius:150px;
+}
+
+.d{
+	width:300px;height:300px;border:3px solid LimeGreen;border-radius:20px 60px 20px 60px
+	
+}

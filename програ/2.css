@@ -1,0 +1,12 @@
+body {background-color: #A52A2A}
+.lox{background-color: #FFFFFF; width: 900px; height: 1000px;margin: 30px auto}
+.mehy{background-color: #808080; width: 300px; height: 700px;font-size: 25px;
+font-style: italic;float: left; }
+.lol{background-color: #C0C0C0; width: 600px; height: 700px;font-size: 25px;
+font-style: italic;float:right; }
+
+a: link {color: blue}
+a: visited {color: green}
+a: hover {color: red}
+a: active {color: yellow}
+a{text-decoration: none;}
